@@ -19,6 +19,10 @@
             person2.Age = 25;
             person2.JobTitle = "teacher";
             person2.IntroduceYourselfWithJob();
+
+            Inkapsling person3 = new Inkapsling(35000);
+            person3.ShowMoney(); //anropar metoden ShowMoney som visar hur mycket pengar personen har
+
         }
     }
 }
