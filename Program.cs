@@ -18,10 +18,17 @@
             person2.Surname = "Jakob";
             person2.Age = 25;
             person2.JobTitle = "teacher";
-            person2.IntroduceYourselfWithJob();
+            person2.IntroduceYourselfWithJob(); //anropar metoden IntroduceYourselfWithJob som jag hade i arv klassen och nu utöver person mallen 
+            //så får Melissa även en job titel
 
             Inkapsling person3 = new Inkapsling(35000);
             person3.ShowMoney(); //anropar metoden ShowMoney som visar hur mycket pengar personen har
+
+            Polymorfism person4 = new Polymorfism(); //skapat ett objekt av polymorfism klassen som ärver från person klassen
+            person4.Name = "Emilya";                 //sätter värde på namn, efternamn och alder på nytt 
+            person4.Surname = "Ivanova";
+            person4.Age = 56;
+            person4.IntroduceYourself(); //anropar metoden IntroduceYourself som är override i polymorfism klassen
 
         }
     }

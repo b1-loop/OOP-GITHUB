@@ -15,7 +15,7 @@ namespace OOP_GITHUB
         public string Surname;
         public int Age;
     
-        public void IntroduceYourself()
+        public virtual void IntroduceYourself()
         {
             Console.WriteLine($"Hello, my name is {Name} {Surname} and I am {Age} years old.");
         }
