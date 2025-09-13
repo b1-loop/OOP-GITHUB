@@ -30,6 +30,12 @@
             person4.Age = 56;
             person4.IntroduceYourself(); //anropar metoden IntroduceYourself som är override i polymorfism klassen
 
+            BLicense carDriver = new BLicense(); //skapat ett objekt av BLicense klassen som ärver från DriverLicense abstrakt klassen
+            carDriver.DriveCar(); //anropar metoden DriveCar som finns i BLicense klassen
+
+            DLicense busDriver = new DLicense(); //skapat ett objekt av DLicense klassen som ärver från DriverLicense abstrakt klassen
+            busDriver.DriveBus(); //anropar metoden DriveBus som finns i DLicense klassen
+
         }
     }
 }
